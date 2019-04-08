@@ -1,0 +1,32 @@
+---THINGS---
+item 0 Shackles
+item 1 Key
+item 2 Hammer
+item 3 Nails
+item 4 Glasses
+item 5 Paper
+
+---PLACES---
+location 0 Room
+"You find yourself in an empty room. You don't know where you are. Last you remember, you were kidnapped and knocked out by a hooded individual. You're shackled, but there are items nearby."
+
+location 1 Hallway
+"To connect the looming doors and terrifying aura encapsulating the walls, a strange hallway you could mistake for the inside of a human intestine greets you."
+
+location 2 Lobby
+"You encounter a large, vast, and especially empty area. The walls are dim white with red stains. You conclude this is the lobby. The symmetrical, double floored room seems ordinary. What's stands the hairs on your body is how all this space has nothing in it other than corpses."
+
+location 3 Gallows
+"An execution is currently being held in place. A crowd gathers--seemingly the whole town has come to watch a single man die. The inmate wears a baggy robe, covering his face with the hood. He looks like your kidnapper. Was he trying to help you?"
+
+---PICKUP--- (FIRST NUM IS LOCATION, NEXT NUMS ARE ITEMS)
+items 0 1
+items 1 2
+items 2 3 4
+items 3 5
+
+---EXITS--- (FIRST NUM IS CURRENT, NEXT NUMS ARE EXITS AVAIALBLE)
+exit 0 1
+exit 1 2 0
+exit 2 1 3
+exit 3 2
