@@ -1,0 +1,2 @@
+position 0
+inventory 0 Shackles
