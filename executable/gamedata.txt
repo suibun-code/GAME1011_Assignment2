@@ -27,6 +27,6 @@ items 3 5
 
 ---EXITS--- (FIRST NUM IS CURRENT, NEXT NUMS ARE EXITS AVAIALBLE)
 exit 0 1
-exit 1 2 0
+exit 1 0 2
 exit 2 1 3
 exit 3 2
