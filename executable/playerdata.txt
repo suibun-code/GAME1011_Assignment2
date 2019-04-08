@@ -1,2 +1,2 @@
 position 0
-inventory 0 Shackles 1 Key 2 Hammer
+inventory 0 Shackles
